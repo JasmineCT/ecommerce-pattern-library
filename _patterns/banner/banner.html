@@ -2,9 +2,9 @@
   <img src="/images/crystals/{{include.image}}" class="img-flex">
   <div class="banner-content">
     <div>
-      <h3>{{include.title}}</h3>
+      <h3>{{include.heading}}</h3>
       <p class="max-length gutter-1-4">{{include.details}}</p>
-      {% pattern buttons/ghost %}
+      {% pattern buttons/ghost text=include.button_text %}
     </div>
   </div>
 </div>

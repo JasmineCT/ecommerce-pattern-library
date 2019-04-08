@@ -39,8 +39,28 @@
   .banner-content {
     position: absolute;
     bottom: 10em;
+    left: 30em;
+  }
+
+
+}
+
+@media only screen and (min-width: 80em) {
+
+  .banner-content {
+    position: absolute;
+    bottom: 10em;
     left: 40em;
   }
 
+}
+
+@media only screen and (min-width: 100em) {
+
+  .banner-content {
+    position: absolute;
+    bottom: 10em;
+    left: 80em;
+  }
 
 }
