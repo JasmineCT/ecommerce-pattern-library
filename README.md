@@ -22,6 +22,7 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 ## Collaborators
 
 - [@ceci-bowles](https://github.com/ceci-bowles)
+- [@cayangaannika](https://github.com/cayangaannika)
 ---
 ## Referencing websites
 View the wireframes at: ![ ](/assets/wireframes.xd)
