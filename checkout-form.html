@@ -3,10 +3,17 @@ layout: default
 ---
 
 <form action="https://formspree.io/carl0128@algonquinlive.com" method="POST">
+  <h2 class="text-center island">Checking out</h2>
   {% pattern forms/name %}
+  <div class="max-length gutter-1-2">
   {% pattern forms/email %}
   {% pattern forms/phone %}
+</div>
   {% pattern forms/address %}
-  {% pattern buttons/basic text="Continue" btn-text="#" %}
+  <div class="max-length grid pad-b-2">
+    <div class="unit xs-1 s-1 m-1 l-1 xl-1">
+    {% pattern buttons/basic text="Continue" btn-text="#" %}
+  </div>
+  </div>
 
 </form>
