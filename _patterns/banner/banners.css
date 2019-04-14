@@ -7,8 +7,8 @@
 
 .banner-content {
   position: absolute;
-  bottom: 2em;
-  left: 0em;
+  bottom: 1em;
+  left: 1em;
 }
 
 .plain-banner {
@@ -27,8 +27,8 @@
 
   .banner-content {
     position: absolute;
-    bottom: 10em;
-    left: 10em;
+    bottom: 5em;
+    left: 13em;
   }
 
 
@@ -39,7 +39,7 @@
   .banner-content {
     position: absolute;
     bottom: 10em;
-    left: 30em;
+    left: 25em;
   }
 
 
@@ -50,7 +50,17 @@
   .banner-content {
     position: absolute;
     bottom: 10em;
-    left: 40em;
+    left: 35em;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .banner-content {
+    position: absolute;
+    bottom: 10em;
+    left: 45em;
   }
 
 }
@@ -60,7 +70,7 @@
   .banner-content {
     position: absolute;
     bottom: 10em;
-    left: 80em;
+    left:60em;
   }
 
 }
