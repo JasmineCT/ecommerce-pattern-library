@@ -20,8 +20,6 @@
 /* Style the form icons */
 .icon {
   padding: 15px;
-  background: var(--color-primary-light);
-  color: white;
   min-width: 50px;
   text-align: center;
 }
